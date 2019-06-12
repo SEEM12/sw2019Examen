@@ -55,4 +55,16 @@ router.put('/:id',(req,res,next)=>{
 });//put
 
 
+router.delete('/:id', (req,res,next)=>{
+    var id= req.params.id;
+    var deleteReceta = {};
+    recetaCollection = recetaCollection.filter((e,i)=>{
+
+    });
+    res.status(403).json({msg:"not implemented"});
+
+});//delete
+
+module.exports =router;
+
 
