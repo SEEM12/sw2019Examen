@@ -39,4 +39,14 @@ router.get('/',(req,res,next)=>{
 
 });
 
+router.post('/',(req,res,next)=>{
+   var newReceta = Object.assign(
+       {},
+       {id:uuid()}
+       );
+
+       res.status(403).json({msg:"not implemented"});
+  
+   
+});//post
 
