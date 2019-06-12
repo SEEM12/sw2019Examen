@@ -50,3 +50,9 @@ router.post('/',(req,res,next)=>{
    
 });//post
 
+router.put('/:id',(req,res,next)=>{
+    res.status(403).json({msg:"not implemented"});
+});//put
+
+
+
